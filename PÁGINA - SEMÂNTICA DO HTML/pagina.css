@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Poppins", sans-serif;
-scroll-behavior: smooth;
-list-style: none;
-text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
 }
 
-body{
+body {
     margin: 40px;
 }
 
@@ -18,43 +18,78 @@ body{
 .navbar {
     display: flex;
 }
-.navbar a{
+
+
+.navbar a {
     color: #000;
     font-size: 16px;
     text-transform: capitalize;
     padding: 10px 20px;
     font-weight: 400;
-
-    
 }
 .navbar a:hover {
-    color: #269199; 
-
+    color: #269199;
 }
-#extras p::first-line{
+
+.frase {
+    font-size: 20px;
+}
+
+
+#extras p::first-line {
     color: black;
 }
 
-h1, .final{
+
+h1, .final {
     color: palevioletred;
 }
 
-#extras{
+
+#extras {
     background-color: rgb(238, 169, 192);
     border-radius: 10px;
     margin-top: 10px;
-    
 }
-#extras h3,p, blockquote,h5{
+
+
+#extras h3, #extras p, #extras blockquote, #extras h5 {
     margin-left: 15px;
-    
 }
-a[href="https://br.pinterest.com/heloisamilitaosouza/nails/"]{
+
+
+a[href="https://br.pinterest.com/heloisamilitaosouza/nails/"] {
     color: #000;
     margin-left: 15px;
 }
-a[href="https://i.pinimg.com/736x/8b/2c/c3/8b2cc3533c6eb511536ecdaad2f1165b.jpg"]{
+a[href="https://i.pinimg.com/736x/8b/2c/c3/8b2cc3533c6eb511536ecdaad2f1165b.jpg"] {
     color: #000;
     margin-left: 15px;
+}
+
+section ul:first-child {
+    background-color: #ffe4e1;
+}
+
+section ul:nth-child(2) {
+    font-style: italic;
+}
+
+h1::before {
+    content: "🠒";
+}
+
+main > section {
+    padding: 5px;
+}
+
+h5 + a {
+    font-weight: bold;
+}
+
+h5 ~ a {
+    display: block;
+    margin-top: 5px;
+    color: purple;
 }
 
