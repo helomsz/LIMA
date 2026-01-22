@@ -28,7 +28,7 @@ Este repositório reúne minhas atividades, exercícios e projetos desenvolvidos
 ## 📌 Observações
 
 - Este repositório é voltado ao aprendizado prático da linguagem de marcação;
-- Os exercícios seguem o conteúdo das aulas e podem incluir desafios adicionais;
+- Os exercícios seguem o conteúdo das aulas e incluem desafios adicionais;
 
 
 > **Nota:** Todo o conteúdo aqui é feito para fins educacionais e de prática da disciplina LIMA.
